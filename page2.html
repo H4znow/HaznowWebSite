@@ -71,32 +71,32 @@
                         </div>
                     </div>
                     <hr size="5px" width="95%" color="white">
-                    <div id="bloc2">
-                        <img id="chatBox" src="./image/chatBox.svg" alt="image de boite message" />
-                        <div id="formulaire">
+                    <div id="formulaire">
+                        <div id="title">
                             <h1>Partagez vos retours par ici !</h1>
-                            <form method="post" action="traitement.php">
-                                <p>
-                                    <label for="pseudo">Votre pseudo :</label>
-                                    <input type="text" name="pseudo" id="pseudo" placeholder="Al-Tair" size="30" maxlength="10" required/>
-                                </p>
-                                <p>
-                                    <label for="email">Votre e-mail:</label>
-                                    <input type="email" name="email" id="email" placeholder="Pouet@gmail.com" required/>
-                                </p>
-                                <p>
-                                    <label for="telephone">Votre numero de telephone:</label>
-                                    <input type="tel" name="telephone" id="telephone" placeholder="+966 54 427 30**" />
-                                </p>
-                                <p>
-                                    <label for="ameliorer">Suggestions :</label><br />
-                                    <textarea name="ameliorer" id="ameliorer" rows="5" cols="50" required placeholder="Alors tu devrais changer ca et ca et ca et...bah tout en fait!"></textarea>
-                                </p>
-                                <p>
-                                    <input id="envoyer"type="submit" value="Envoyer" />
-                                </p>
-                            </form>
+                            <img id="chatBox" src="./image/chatBox.svg" alt="image de boite message" />
                         </div>
+                        <form method="post" action="traitement.php">
+                            <p>
+                                <label for="pseudo">Votre pseudo :</label>
+                                <input type="text" name="pseudo" id="pseudo" placeholder="Al-Tair" size="30" maxlength="10" required/>
+                            </p>
+                            <p>
+                                <label for="email">Votre e-mail:</label>
+                                <input type="email" name="email" id="email" placeholder="Pouet@gmail.com" required/>
+                            </p>
+                            <p>
+                                <label for="telephone">Votre numero de telephone:</label>
+                                <input type="tel" name="telephone" id="telephone" placeholder="+966 54 427 30**" />
+                            </p>
+                            <p>
+                                <label for="ameliorer">Suggestions :</label><br />
+                                <textarea name="ameliorer" id="ameliorer" rows="5" cols="50" required placeholder="Alors tu devrais changer ca et ca et ca et...bah tout en fait!"></textarea>
+                            </p>
+                            <p>
+                                <input id="envoyer"type="submit" value="Envoyer" />
+                            </p>
+                        </form>
                     </div>
                 </section>
             </main>
