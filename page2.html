@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="./css/style_base.css"/>
+        <link rel="stylesheet" href="./css/creations.css"/>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,300;1,500&display=swap" rel="stylesheet">
+        <title>Creations</title>
+        </head>
+    <body>
+        <div id="bloc_page">
+            <header>
+                <div class="titre">
+                    <h1><a href="./index.html"> Haznow</a></h1>
+                </div>
+                <nav>
+                    <ul>
+                        <li><a href="./index.html">Acceuil</a></li>
+                        <li><a href="./page1.html" >Page 1</a></li>
+                        <li><a href="./page2.html" class="active">Creations</a></li>
+                        <li><a href="">A propos</a></li>
+                    </ul>
+                </nav>
+            </header>
+            <main>
+                <section>
+                    <!--Si ajoute d'une nouvelle creation, ne pas oubliez de mettre a jour le script Js-->
+                    <div id="bloc_creations">
+                        <div class="creation" id="creation1">
+                            <img src="./image/Colonisation.jpg" alt="Image 'Colonisation' de haznow"  title="La colonisation" />
+                            <h2>La Colonisation</h2>
+                            <p>Realisation Photoshop (2020)</p>
+                            <p><a download="Colonisation.jpg" target="_blank" href="./image/Colonisation.jpg">Télécharger</a></p>
+                        </div>
+
+                        <div class="creation" id="creation2">
+                            <img src="./image/Escapade.jpg" alt="Image 'Escapade' de haznow" title="L'escapade" />
+                            <h2>L'Escapade</h2>
+                            <p>Realisation Photoshop (2021)</p>
+                            <p><a  download="Escapade.jpg"target="_blank" href="./image/Escapade.jpg">Télécharger</a></p>
+                        </div>
+                        <div class="creation" id="creation3">
+                            <img download="Hope.jpg" src="./image/Hope.jpg" alt="Image 'Hope' de haznow" title="Hope"  />
+                            <h2>Hope</h2>
+                            <p>Realisation Photoshop (2021)</p>
+                            <p><a target="_blank" href="./image/Hope.jpg" download="Hope.jpg" >Télécharger</a></p>
+                        </div>
+                        <div class="creation" id="creation4">
+                            <img src="./image/Au Claire de la lune.jpg" alt="Image 'Au Claire de la lune' de haznow" title="Au Claire de la lune" />
+                            <h2>Au Claire de la lune</h2>
+                            <p>Realisation Photoshop (2020)</p>
+                            <p><a download="Au Claire de la lune.jpg" target="_blank" href="./image/Au Claire de la lune.jpg">Télécharger</a></p>
+                        </div>
+                        <div class="creation" id="creation5">
+                            <img src="./image/html.png" alt="Image logo html5" title="html 5 logo"  />
+                            <h2>1er site web</h2>
+                            <p>Code html (2019)</p>
+                            <p><a  target="_blank" href="../htm/index.htm.htm" download="index.htm.htm">Visiter</a></p>
+                        </div>
+                        <div class="creation" id="creation6">
+                            <img src="./image/Css.png" alt="Image logo CSS" title="CSS logo"  />
+                            <h2>1er site web</h2>
+                            <p>Code CSS (2019)</p>
+                            <p><a  target="_blank" href="../htm/style.css" download="index.htm.htm" download="style.css">Télécharger</a></p>
+                        </div>
+                        <div class="creation" id="creation7">
+                            <img src="./image/java_logo.jpg" alt="Image Java" title="Java logo"  />
+                            <h2>Robot infirmier</h2>
+                            <p>Code java (2020-2021))</p>
+                            <p><a target="_blank" href="../Portail_Descartes/Programmation//HaddouAmine_DM2/Robot0.rar" download="Robot0.rar">Télécharger</a></p>
+                        </div>
+                    </div>
+                    <hr size="5px" width="95%" color="white">
+                    <div id="formulaire">
+                        <h1>Partagez vos retours par ici !</h1>
+                        <form method="post" action="traitement.php">
+                            <p>
+                                <label for="pseudo">Votre pseudo :</label>
+                                <input type="text" name="pseudo" id="pseudo" placeholder="Ex : Al-Tair" size="30" maxlength="10" required/>
+                            </p>
+                            <p>
+                                <label for="email">Votre e-mail:</label>
+                                <input type="email" name="email" id="email" placeholder="Ex : Pouet@gmail.com" required/>
+                            </p>
+                            <p>
+                                <label for="telephone">Votre numero de telephone:</label>
+                                <input type="tel" name="telephone" id="telephone" placeholder="+96654 427 30**" />
+                            </p>
+                            <p>
+                                <label for="ameliorer">Suggestions :</label><br />
+                                <textarea name="ameliorer" id="ameliorer" rows="5" cols="50" required placeholder="Ex : Supprime-le en fait..."></textarea>
+                            </p>
+                            <p>
+                                <input type="submit" value="Envoyer" />
+                            </p>
+                        </form>
+                    </div>
+                </section>
+            </main>
+            
+            <footer>
+                <h1>Haznow</h1>
+                <p>TOUS DROITS RÉSERVÉS © - 2021</p>
+            </footer>
+        </div>  
+        <script type="text/javascript" src="./js/creations.js"></script>    
+    </body>
+</html>
