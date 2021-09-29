@@ -14,6 +14,7 @@ section{
   justify-content: space-evenly;
 }
 .creation{
+  margin-top: 7px;
   width: 150px;
   height: 250px;
   display: flex;
@@ -23,7 +24,6 @@ section{
   background-color: white;
   text-align: center; 
   border-radius: 2px;
-  -webkit-transition: -webkit-transform 0.5s;
   box-shadow: 2px 5px 10px black;
 }
 .creation img{
@@ -46,9 +46,6 @@ section{
   font-style: italic;
   font-size: 0.9em;
   margin-bottom: 15px;
-}
-.creation:hover{
-  -webkit-transform: rotate(360deg) translateZ(0);
 }
 .creation p a{
   display: block;
@@ -113,10 +110,23 @@ form input::placeholder, form textarea::placeholder{
 
 form input:hover, form textarea:hover{
   padding-left: 2px;
-  color: gold;
   opacity: 1;
   border-left: 5px solid green;
 }
 form input:invalid p,form textarea:hover p {
   color: red;
+}
+#envoyer{
+  padding:0;
+  background-color: #00308F;
+  color: white;
+  padding: 2px 2px 2px 2px;
+  border-left: 0px;
+  border-radius: 2px;
+}
+#envoyer:hover{
+  padding-left: 0px;
+  border-left: none;
+  background-color: white;
+  color: #00308F;
 }
