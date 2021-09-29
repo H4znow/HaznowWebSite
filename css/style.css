@@ -1,0 +1,146 @@
+h1{
+    font-size: 1.5em;
+    text-align: center;
+    color: white;
+}
+
+#bloc_page{
+    position: absolute;
+    top:0;
+    left:0;
+    bottom:0;
+    right:0;
+    background-color: #00308F;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    margin: auto;
+    
+}
+header{
+    position: relative;
+    top: 0;
+    left: 0;
+}
+ section, header {
+    background-image: url("../image/indexBckgroundBlue.svg");
+    background-color: #00308F;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+ }
+
+header h1 {
+    font-family: "Roboto Mono", "Arial"  ,sans-serif;
+    font-weight: bold;
+    font-size: 3em;
+    letter-spacing: 6px;
+}
+
+section{
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.bvn{
+    font-family:'Roboto Mono', monospace, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: white;
+    font-size: 2em;
+    letter-spacing: 2px;
+}
+
+.bouton a{
+    display: block;
+    font-family:'Roboto Mono', monospace, 'Times New Roman', Times, serif;
+    color: black;
+    font-style: italic;
+    width: 150px;
+    line-height: 50px;
+    text-align: center;
+    background-color: white;
+    position: relative;
+    top: 50px;
+    text-decoration: none;  
+    box-shadow: 6px 6px 16px black;  
+    border-radius: 3px;
+}
+.bouton a:hover {
+    background-color:black;
+    color: white;
+}
+.bouton a:visited{
+    font-family:'Roboto Mono', monospace, 'Times New Roman', Times, serif;
+    font-style: italic;
+    text-decoration: none;
+}
+footer{
+    background-color: #00308F;
+}
+
+footer p{
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    font-style: italic;
+    font-size: 0.9em;
+}
+
+/* Mise en page pour tout les types */
+@media all and (max-device-width: 480px) 
+{
+    #bloc_page{
+        width: auto;
+    }
+    .bvn{
+        font-size: 1.2em;
+    }
+    footer{
+        font-size: 0.8em;
+    }
+    .bouton a{
+        top: -20px;
+    }
+    .bouton a:active{
+        background-color:black;
+        color: white;
+    }
+}
+/*Background Mobile S*/
+@media all and (max-device-width: 350px){
+    section{
+        background-image: url("../image/Colonisation.jpg");
+        background-position: -300px;
+        background-attachment: fixed;
+    }
+}
+/*Background Mobile M*/
+@media all and (max-device-width: 400px){
+    section{
+        background-image: url("../image/Colonisation.jpg");
+        background-position: -250px;
+        background-attachment: fixed;
+    }
+}
+/*Background Mobile L*/
+@media all and (max-device-width: 480px){
+    section{
+        background-image: url("../image/Colonisation.jpg");
+        background-position: -230px;
+        background-attachment: fixed;
+    }
+    .bvn{
+        font-size: 1.0em;
+    }
+    .bouton a{
+        font-size: 1.0em;
+        width: 100px;
+        line-height: 50px;
+    }
+}
+
