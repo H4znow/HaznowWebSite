@@ -111,36 +111,5 @@ footer p{
         color: white;
     }
 }
-/*Background Mobile S*/
-@media all and (max-device-width: 350px){
-    section{
-        background-image: url("../image/Colonisation.jpg");
-        background-position: -300px;
-        background-attachment: fixed;
-    }
-}
-/*Background Mobile M*/
-@media all and (max-device-width: 400px){
-    section{
-        background-image: url("../image/Colonisation.jpg");
-        background-position: -250px;
-        background-attachment: fixed;
-    }
-}
-/*Background Mobile L*/
-@media all and (max-device-width: 480px){
-    section{
-        background-image: url("../image/Colonisation.jpg");
-        background-position: -230px;
-        background-attachment: fixed;
-    }
-    .bvn{
-        font-size: 1.0em;
-    }
-    .bouton a{
-        font-size: 1.0em;
-        width: 100px;
-        line-height: 50px;
-    }
-}
+
 
