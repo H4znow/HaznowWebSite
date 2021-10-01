@@ -137,11 +137,15 @@ creation7.addEventListener('mouseleave', e =>{
 if (mediaQuery.matches) {
     for(let i =0; i < creations.length; i++){
         creations[i].style.marginRight="20px";
+        creations[i].style.marginTop="15px";
         creations[i].style.width = "250px";
         creations[i].style.height = "400px";
         creations[i].style.fontSize = "1.5em";
-
-
     }
+    const chatBox = document.getElementById("chatBox");
+    const titrePartage = document.getElementById("titrePartage");
+    titrePartage.style.fontSize = "5em";
+    chatBox.style.display = "none";
+
 }
 

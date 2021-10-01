@@ -145,3 +145,12 @@ form input:invalid p,form textarea:hover p {
   justify-content: center;
   align-items: center;
 }
+@media all and (max-device-width: 480px) {
+  #formulaire label{
+    font-size: 2em;
+    letter-spacing: 1px;
+  }
+  #formulaire input, #formulaire textarea{
+    font-size: 2em;
+  }
+}
