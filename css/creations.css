@@ -39,6 +39,8 @@ section{
   color: tomato;
   margin-bottom: 15px;
   text-decoration: underline red;
+  margin-left: 4px;
+  margin-right: 4px;
   
 }
 .creation p {
@@ -152,5 +154,17 @@ form input:invalid p,form textarea:hover p {
   }
   #formulaire input, #formulaire textarea{
     font-size: 2em;
+  }
+  .creation h2{
+    font-size: 1.2em;
+  }
+  .creation p{
+    font-size: 1.2em;
+  }
+  .creation p a{
+    font-size: 1em;
+    height: 40px;
+    width: 150px;
+    line-height: 40px;
   }
 }

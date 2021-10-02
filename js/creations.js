@@ -12,7 +12,7 @@ creation1.addEventListener('mouseenter', e => {
     if (mediaQuery.matches) {
         return;
     }
-    creation1.style.boxShadow = "6px 6px 10px #3e00ba";
+    creation1.style.boxShadow = "6px 6px 10px #black";
     creation1.style.border = "3px solid #474747";
     creation1.style.width = "200px";
     creation1.style.height = "300px";
@@ -30,7 +30,7 @@ creation2.addEventListener('mouseenter', e => {
     if (mediaQuery.matches) {
         return;
     }
-    creation2.style.boxShadow = "6px 6px 10px #3e00ba";
+    creation2.style.boxShadow = "6px 6px 10px #black";
     creation2.style.border = "3px solid #474747";
     creation2.style.width = "200px";
     creation2.style.height = "300px";
@@ -48,7 +48,7 @@ creation3.addEventListener('mouseenter', e => {
     if (mediaQuery.matches) {
         return;
     }
-    creation3.style.boxShadow = "6px 6px 10px #3e00ba";
+    creation3.style.boxShadow = "6px 6px 10px #black";
     creation3.style.border = "3px solid #474747";
     creation3.style.width = "200px";
     creation3.style.height = "300px";
@@ -66,7 +66,7 @@ creation4.addEventListener('mouseenter', e => {
     if (mediaQuery.matches) {
         return;
     }
-    creation4.style.boxShadow = "6px 6px 10px #3e00ba";
+    creation4.style.boxShadow = "6px 6px 10px #black";
     creation4.style.border = "3px solid #474747";
     creation4.style.width = "200px";
     creation4.style.height = "300px";
@@ -84,7 +84,7 @@ creation5.addEventListener('mouseenter', e => {
     if (mediaQuery.matches) {
         return;
     }
-    creation5.style.boxShadow = "6px 6px 10px #3e00ba";
+    creation5.style.boxShadow = "6px 6px 10px #black";
     creation5.style.border = "3px solid #474747";
     creation5.style.width = "200px";
     creation5.style.height = "300px";
@@ -102,7 +102,7 @@ creation6.addEventListener('mouseenter', e => {
     if (mediaQuery.matches) {
         return;
     }
-    creation6.style.boxShadow = "6px 6px 10px #3e00ba";
+    creation6.style.boxShadow = "6px 6px 10px #black";
     creation6.style.border = "3px solid #474747";
     creation6.style.width = "200px";
     creation6.style.height = "300px";
@@ -120,7 +120,7 @@ creation7.addEventListener('mouseenter', e => {
     if (mediaQuery.matches) {
         return;
     }
-    creation7.style.boxShadow = "6px 6px 10px #3e00ba";
+    creation7.style.boxShadow = "6px 6px 10px #black";
     creation7.style.border = "3px solid #474747";
     creation7.style.width = "200px";
     creation7.style.height = "300px";
@@ -146,6 +146,5 @@ if (mediaQuery.matches) {
     const titrePartage = document.getElementById("titrePartage");
     titrePartage.style.fontSize = "5em";
     chatBox.style.display = "none";
-
 }
 
