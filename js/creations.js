@@ -8,7 +8,7 @@ const creation7 = document.getElementById("creation7");
 const creations = [creation1, creation2, creation3, creation4, creation5, creation6, creation7];
 const mediaQuery = window.matchMedia('all and (max-device-width: 480px)');
 const classCreations = document.getElementsByClassName("creation");
-creation1.addEventListener('mouseenter', e => {
+/*creation1.addEventListener('mouseenter', e => {
     if (mediaQuery.matches) {
         return;
     }
@@ -133,7 +133,7 @@ creation7.addEventListener('mouseleave', e =>{
     creation7.style.border = "none";
     creation7.style.width = "150px";
     creation7.style.height = "250px";
-})
+})*/
 if (mediaQuery.matches) {
     for(let i =0; i < creations.length; i++){
         creations[i].style.marginRight="20px";
