@@ -88,6 +88,10 @@ section #img2, #img1 {
     margin-bottom: 20px;
     box-shadow: 6px 6px 40px black;
 }
+section #text2 p a{
+    text-decoration: none;
+    color: #0EFFBC;
+}
 section #text2 p a:hover{
     text-decoration: underline;
 }
