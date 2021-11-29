@@ -6,44 +6,43 @@ section{
   margin-bottom: 10px;
   display: flex;
   flex-direction: column;
+  background-color: white;  
 }
 #bloc_creations{
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-evenly;
+  min-height: 1000px;
   max-width: 98%;
   min-height: 80vh;
 }
-.creation:hover{
+/*.creation:hover{
   margin-top: 25px;
   border: 1px solid black;
-  /* L'image est grossie de 25% */
-  -webkit-transform:scale(1.25); /* Safari et Chrome */
-  -moz-transform:scale(1.25); /* Firefox */
-  -ms-transform:scale(1.25); /* Internet Explorer 9 */
-  -o-transform:scale(1.25); /* Opera */
+  /* L'image est grossie de 25% 
+  -webkit-transform:scale(1.25); /* Safari et Chrome 
+  -moz-transform:scale(1.25); /* Firefox 
+  -ms-transform:scale(1.25); /* Internet Explorer 9 
+  -o-transform:scale(1.25); /* Opera 
   transform:scale(1.25);
-  }
+  }*/
 .creation{
-  margin-top: 7px;
-  width: 200px;
-  height: 300px;
+  width: 310px;
+  margin: 2.5px 0px 2.5px 2px;
+  /*box-shadow: 2px 3px white;*/
   display: flex;
-  margin-right: 20px;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
-  background-color: white;
-  text-align: center; 
-  border-radius: 2px;
-  box-shadow: 2px 5px 10px black;
+}
+.creation:hover{
+  background-color: #F4F4F4;
 }
 .creation img{
-  max-width: 110px;
-  height: auto;
-  border-radius: 360px;
-  margin-bottom: 15px;
+  max-width: 300px;
+  height: 150px;
+  border-radius: 3px;
+  margin:0px 5px 20px 5px;
 }
 .creation h2{
   font-family: 'Roboto Mono', monospace;
@@ -75,7 +74,7 @@ section{
   background-color: white;
   position: relative;
   text-decoration: none;  
-  box-shadow: 6px 6px 16px black;  
+  box-shadow: 2px 1px 4px black;  
   border-radius: 3px;
   color: #00308F;
 }
@@ -83,7 +82,7 @@ section{
   text-decoration: none;
   color: #00308F;
 }
-hr{
+/*hr{
   margin: 40px 0px 40px 0px;
   align-self: center;
   border-radius: 20px;
@@ -111,7 +110,7 @@ form p label{
 
 /*#pseudo, #email, #ameliorer{
   border: 1px solid red;
-}*/
+}*/ /*
 .formulaireTaille, form textarea{
   border: none;
   min-height: 59px;
@@ -165,7 +164,7 @@ form input:invalid p,form textarea:hover p {
   flex-direction: row-reverse;
   justify-content: center;
   align-items: center;
-}
+}*/
 
 
 
