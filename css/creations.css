@@ -27,11 +27,10 @@ section{
   }
 .creation{
   margin-top: 7px;
-  width: 150px;
-  height: 250px;
+  width: 200px;
+  height: 300px;
   display: flex;
-  margin-right: 5px;
-  margin-left: 5px;
+  margin-right: 20px;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -107,20 +106,24 @@ form p label{
   margin-bottom: 3px;
   font-family: 'Roboto Condensed', sans-serif;
   font-weight: bold;
-  font-size: 0.9em;
+  font-size: 1.4em;
 }
 
 /*#pseudo, #email, #ameliorer{
   border: 1px solid red;
 }*/
-form input, form textarea{
+.formulaireTaille, form textarea{
   border: none;
+  min-height: 59px;
+  min-width: 400px;
+  margin: 15px 0px 15px 0px;
   border-left: 5px solid #00308F;
   background-color: transparent;
   
 }
 form input::placeholder, form textarea::placeholder{
   padding-left: 3px;
+  font-size: 1.6em;
   color: aliceblue;
   font-style: italic;
 }
@@ -133,8 +136,10 @@ form input:hover, form textarea:hover{
 form input:invalid p,form textarea:hover p {
   color: red;
 }
+
 #envoyer{
-  
+  width: 70px;
+  height: 50px;
   background-color: #00308F;
   color: white;
   padding: 2px 2px 2px 2px;
@@ -161,6 +166,9 @@ form input:invalid p,form textarea:hover p {
   justify-content: center;
   align-items: center;
 }
+
+
+
 @media all and (max-device-width: 480px) {
   #formulaire label{
     font-size: 2em;
